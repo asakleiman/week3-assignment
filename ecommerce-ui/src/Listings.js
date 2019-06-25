@@ -13,10 +13,9 @@ class RentalsAvailable extends React.Component {
       }
     
     render(){
-        console.log(this.state.listing);
         return(
             <Listings 
-            key={this.state.idx} 
+ 
             listingDetail={this.state.listing} 
            />
         );
