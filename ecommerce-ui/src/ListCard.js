@@ -7,7 +7,7 @@ class Listing extends React.Component{
             <div>
              {this.props.listingDetail.map((item, idx) => {
                 return <div key={idx} >
-                        <img src={item['image']} alt="item.title"></img>
+                        <img src={item['image']} alt={item.title}></img>
                         <div>{item.title}</div>
                         <div >Type:<br></br> {item.houseType}</div>
                         <div >Location:<br></br> {item.location.city}, {item.location.country}</div>
