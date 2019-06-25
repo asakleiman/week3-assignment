@@ -15,7 +15,6 @@ class RentalsAvailable extends React.Component {
     render(){
         return(
             <Listings 
- 
             listingDetail={this.state.listing} 
            />
         );
